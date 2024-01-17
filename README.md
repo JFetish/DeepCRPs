@@ -12,4 +12,4 @@ The `GRU4fold.py` script includes both GRU and LSTM methods for CRP classificati
 
 To initiate the training of DeepCRPs, run the `train.py` script.
 
-To obtain explanations using GNN, run the `graphexplain.py` script.
+To obtain explanations of GNN, run the `graphexplain.py` script.
