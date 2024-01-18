@@ -54,7 +54,7 @@ criterion = torch.nn.CrossEntropyLoss()
 
 
 # Initialize explainer with the model and PGExplainer algorithm
-
+# You can use models that have already been save
 explainer = Explainer(
     model=model,
     algorithm=PGExplainer(epochs=1500, lr=0.00003),
